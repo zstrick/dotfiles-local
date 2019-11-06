@@ -1,3 +1,4 @@
 Plug 'vim-airline/vim-airline'
 Plug 'nanotech/jellybeans.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'ryanoasis/vim-devicons'
