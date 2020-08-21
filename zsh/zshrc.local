@@ -2,10 +2,6 @@ eval "$(rbenv init -)"
 export GOPATH=$HOME/go
 PATH=$PATH:/Applications/MacVim.app/Contents/bin
 
-
-export ARTIFACTORY_USERNAME="zack.strickland@validic.com"
-export ARTIFACTORY_PASSWORD="*xV3pbhsHftBhskdTdUBKQAngACLL3kFTHw!xp"
-
 source ~/.zplug/init.zsh
 
 zplug "mafredri/zsh-async", from:github
