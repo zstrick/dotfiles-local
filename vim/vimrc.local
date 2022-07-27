@@ -2,6 +2,17 @@ if has('mac') && has('gui_running')
   set macligatures
   set guifont=FiraCode\ Nerd\ Font:h13
 endif
+
 set termguicolors
-colorscheme jellybeans
+set background=dark
+set relativenumber
+
+let g:gruvbox_material_background = 'hard'
+let g:gruvbox_material_better_performance = 1
+let g:airline_theme = 'gruvbox_material'
+let g:gruvbox_material_transparent_background = 1
+colorscheme gruvbox-material
+
 let g:ale_set_highlights = 0
+
+inoremap jk <ESC>

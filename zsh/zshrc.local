@@ -1,7 +1,3 @@
-eval "$(rbenv init -)"
-export GOPATH=$HOME/go
-PATH=$PATH:/Applications/MacVim.app/Contents/bin
-
 source ~/.zplug/init.zsh
 
 zplug "mafredri/zsh-async", from:github
