@@ -1,11 +1,8 @@
-if has('mac') && has('gui_running')
-  set macligatures
-  set guifont=FiraCode\ Nerd\ Font:h13
-endif
-
 set termguicolors
 set background=dark
 set relativenumber
+set scrolloff=3
+set sidescrolloff=5
 
 let g:gruvbox_material_background = 'hard'
 let g:gruvbox_material_better_performance = 1
@@ -16,3 +13,5 @@ colorscheme gruvbox-material
 let g:ale_set_highlights = 0
 
 inoremap jk <ESC>
+nnoremap <Leader>nt :NERDTreeToggle<CR>
+
